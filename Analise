@@ -11,7 +11,7 @@ library(patchwork)
 # =========================
 con <- dbConnect(
   RPostgres::Postgres(),
-  dbname = "B",
+  dbname = " "banco_de_dados_portugal",
   host = "localhost",
   user = "postgres",
   password = "#####"
